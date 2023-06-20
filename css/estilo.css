@@ -175,3 +175,21 @@ header{
 			background-color: #F74BE1;
 		}
 	}
+
+
+	.cajita3 {
+		transition: transform 1s;
+	}
+	
+	.cajita:hover {
+		transform: rotate(140deg) scale(2) skew(30deg);
+	}
+	
+	.tarjetitas {
+		transition: all .3s;
+	}
+	
+	.tarjetitas:hover {
+		transform: scale(1.1) translateY(-40px);
+		box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+	}
