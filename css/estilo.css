@@ -152,5 +152,26 @@ header{
 
 @media (max-width: 768px) { 
 	body {
-	  background-color: lightblue;
+	background-color: lightblue;
 	} }
+
+
+	.cajita2 {
+		animation-name: cajita2Movimiento;
+		animation-duration: 2s;
+		animation-delay: 0s;
+		animation-timing-function: ease-in-out;
+		animation-iteration-count: infinite;
+		animation-direction: alternate;
+	}
+	
+	@keyframes cajita2Movimiento {
+		from {
+			width: 300px;
+			background-color: #FEA0F2;
+		}
+		to {
+			width: 100%;
+			background-color: #F74BE1;
+		}
+	}
