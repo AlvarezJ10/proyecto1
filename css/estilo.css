@@ -20,7 +20,7 @@ h1{
 
 
 body{
-	background-color: white ;
+	background-color: #FEDFFA ;
 	text-align: center;
 }
 
@@ -51,7 +51,7 @@ iframe{
 }
 
 header{
-	background-color: #FCE2F8;
+	background-color: #FEBFF6;
 	display: flex;
 	gap: 20px;
 	grid-gap: 20px;
@@ -148,3 +148,9 @@ header{
 .bomboncito h3 {
 	margin-top: 10px;
 }
+
+
+@media (max-width: 768px) { 
+	body {
+	  background-color: lightblue;
+	} }
