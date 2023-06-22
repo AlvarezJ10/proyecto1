@@ -228,3 +228,46 @@ header{
 .box173:hover{
 	transform: scale(1.1) translateY(-40px) 
 }
+
+
+.cartelera2 {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 20px;
+}
+
+.cajita17 {
+	text-align: center;
+}
+
+.cajita17 img {
+	width: 100%;
+	height: auto;
+	object-fit: cover;
+
+}
+
+.cajita17 h3 {
+	margin-top: 10px;
+}
+
+
+.cajita17 {
+    animation-name: cajita17Movimiento;
+    animation-duration: 2s;
+    animation-delay: 0.5s;
+}
+
+@keyframes cajita17Movimiento {
+    from {
+        width: 300px;
+        background-color: #F74BE1 ;
+    }
+    to {
+        width: 100%;
+        background-color: #FEA0F2;
+    }
+}
+.cajita17:hover{
+	transform: scale(1.1)
+}
