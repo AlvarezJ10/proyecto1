@@ -271,3 +271,46 @@ header{
 .cajita17:hover{
 	transform: scale(1.1)
 }
+
+.cartelera3 {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 20px;
+
+}
+
+.anibombone17 {
+	text-align: center;
+}
+
+.anibombone17 img {
+	width: 400px;
+	height: auto;
+	object-fit: cover;
+
+}
+
+.anibombone17 h3 {
+	margin-top: 10px;
+}
+
+
+.anibombone17 {
+    animation-name: cajita17Movimiento;
+    animation-duration: 2s;
+    animation-delay: 0.5s;
+}
+
+@keyframes anibombone17 {
+    from {
+        width: 300px;
+        background-color: #F74BE1 ;
+    }
+    to {
+        width: 100%;
+        background-color: #FEA0F2;
+    }
+}
+.anibombone17:hover{
+	transform: scale(1.1)
+}
