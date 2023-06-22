@@ -195,12 +195,36 @@ header{
 	}
 
 
-	.cajita3 {
-		background: rgb(180,58,76);
-		background: linear-gradient(106deg, rgba(180,58,76,1) 3%, rgba(69,252,95,1) 44%, rgba(120,11,240,1) 68%); 
-	}
+.proba2{
+    background-image: linear-gradient(to top, #ebc0fd 0%, #d9ded8 100%);
+}
+.proba3{
+	background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+}
 
-	.cajita4 {
-		background: rgb(180,58,76);
-		background: linear-gradient(106deg, rgba(180,58,76,1) 3%, rgba(69,252,95,1) 44%, rgba(120,11,240,1) 68%); 
+.oferta17{
+	animation-name: oferta17;
+	animation-duration: 3.5s;
+	animation-delay: 0.5s;
+	animation-timing-function: ease-in-out;
+}
+@keyframes oferta17 {
+	from {
+		width: 300px;
+		background-color: #FEA0F2;
 	}
+	to {
+		width: 100%;
+		background-color: #F74BE1;
+	}
+}
+
+.box171:hover{
+	transform: scale(1.1) translateY(-40px) 
+}
+.box172:hover{
+	transform: scale(1.1) translateY(+40px) 
+}
+.box173:hover{
+	transform: scale(1.1) translateY(-40px) 
+}
