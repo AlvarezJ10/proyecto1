@@ -219,6 +219,25 @@ header{
 	}
 }
 
+.boxp171{
+	animation-name: oferta17;
+	animation-duration: 2.0s;
+	animation-delay: 0.5s;
+animation-timing-function: step-start;
+
+}
+@keyframes boxp171 {
+	from {
+		width: 300px;
+		background-color: #FEA0F2;
+	}
+	to {
+		width: 100%;
+		background-color: #F74BE1;
+	}
+}
+
+
 .box171:hover{
 	transform: scale(1.1) translateY(-40px) 
 }
@@ -313,4 +332,49 @@ header{
 }
 .anibombone17:hover{
 	transform: scale(1.1)
+}
+
+
+.contenedor4{
+	display: flex;
+	justify-content: center;
+	gap: 10px;
+}
+.contenedor4 a{
+	font-size: 30px;
+}
+.inicio{
+	color: #a8edea;
+}
+
+
+.tarjetaimgoli{
+	width: 400px;
+}
+
+.tarjetitasoli{
+	display: flex;
+	padding: 60px;
+	gap: 30px;
+	grid-gap: 30px;
+}
+
+.tarjetaoli{
+	border-radius: 30px;
+	overflow: hidden;
+	gap: 40px;
+	grid-gap: 40px;
+}
+
+.tarjetitasoli {
+	transition: all .3s;
+}
+
+.tarjetitasoli:hover {
+	transform: scale(1.1) translateY(-40px);
+	box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.fenix{
+	width: 450px;
 }
