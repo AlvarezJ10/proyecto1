@@ -378,3 +378,15 @@ animation-timing-function: step-start;
 .fenix{
 	width: 450px;
 }
+
+@media (max-width: 768px) {
+	.cartelera {
+	  grid-template-columns: repeat(2, 1fr);
+	}
+  }
+  
+  @media (max-width: 576px) {
+	.cartelera {
+	  grid-template-columns: 1fr;
+	}
+  }
