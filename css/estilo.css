@@ -379,14 +379,45 @@ animation-timing-function: step-start;
 	width: 450px;
 }
 
-@media (max-width: 768px) {
-	.cartelera {
-	  grid-template-columns: repeat(2, 1fr);
+
+  @media screen and (max-width: 600px) {
+	header, h1 {
+		font-size: 18px;
 	}
-  }
-  
-  @media (max-width: 576px) {
-	.cartelera {
-	  grid-template-columns: 1fr;
+
+
+	.logo {
+		display: block;
+		margin: 0 auto;
 	}
-  }
+
+	.menu {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	
+	.menu li {
+		margin-bottom: 10px;
+	}
+
+	.grid-layout {
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-gap: 10px;
+	}
+
+	iframe {
+		width: 100%;
+	}
+
+	.tarjetitas {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.tarjeta {
+		margin-bottom: 20px;
+	}
+}
