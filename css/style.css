@@ -1,8 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Teko&display=swap');
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Teko&display=swap');
+</style>
 *{
 	margin: 0%;
 	padding: 0%;
 	box-sizing: border-box;
+	font-family: Helvetica, sans-serif;
+}
+
+*::selection{
+	background-color: black;
+	color: #F74BE1;
 }
 
 .logo{

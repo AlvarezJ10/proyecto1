@@ -1,0 +1,334 @@
+body{
+    background-color: #FEDFFA ;
+    text-align: center;
+    .logos{
+        grid-column: 1/3;
+        grid-row: 1/3;
+        background-color: aqua;
+    }
+    .bombones2{
+        background-color: blueviolet;
+    }
+    .tabletas2{
+        background-color: beige;
+    }
+    .chocobombas2{
+        background-color: brown;
+    
+    }
+    .barra2{
+        background-color: chartreuse;
+    }
+    
+    .conta > div{
+        display: grid;
+        place-items: center;
+    }
+    
+    .galery.img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    
+    .grid-item:hover{
+        filter: opacity(0.9);
+        transform: scale(1.04);
+    }
+    
+    .contenedor4{
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+    .contenedor4 a{
+        font-size: 30px;
+    }
+    .inicio{
+        color: #a8edea;
+    }
+    
+        
+        .menu li {
+            margin-bottom: 10px;
+        }
+    
+
+h1{
+	color:black;
+	padding: 10;
+	margin: 50;
+    text-align: center;
+	text-decoration: underline;
+    
+    img{
+        border: solid;
+        padding: 300;
+    }
+    li a {
+        text-decoration: none;
+        color: black;
+    }
+    
+    p{
+        font-style:italic;
+        font-weight: bold;
+    }
+    iframe{
+        border: solid;
+        align-items: center
+        width 100%;
+    }
+
+    .grid-layout {
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-gap: 10px;
+	
+
+    .gap-1{
+        justify-content: space-between;
+        margin-right: 100px;
+        gap: 50px;
+    } 
+
+    .fenix{
+        width: 450px;
+    } h2{
+        color:black;
+        padding: 10;
+        margin: 50;
+        text-align: center;
+        text-decoration: underline;
+    }
+}
+
+    .cajita2 {
+		animation-name: cajita2Movimiento;
+		animation-duration: 2s;
+		animation-delay: 0s;
+		animation-timing-function: ease-in-out;
+		animation-iteration-count: infinite;
+		animation-direction: alternate;
+	}
+	
+	@keyframes cajita2Movimiento {
+		from {
+			width: 300px;
+			background-color: #FEA0F2;
+		}
+		to {
+			width: 100%;
+			background-color: #F74BE1;
+		}
+	}
+}
+
+.section{
+    .tarjetaimg{
+        width: 400px;
+    }
+}
+    .tarjetitas{
+        display: flex;
+        padding: 60px;
+        gap: 30px;
+        grid-gap: 30px;
+        transition: all .3s;
+        flex-direction: column;
+		align-items: center;
+    
+    .tarjeta{
+        border-radius: 30px;
+        overflow: hidden;
+        gap: 40px;
+        grid-gap: 40px;
+        margin-bottom: 20px;
+        .letratar{
+            background-color: white;
+        }  }
+
+	.tarjetitas:hover {
+		transform: scale(1.1) translateY(-40px);
+		box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+	}
+}
+
+.tarjetaimgoli{
+	width: 400px;
+}
+
+.tarjetitasoli{
+	display: flex;
+	padding: 60px;
+	gap: 30px;
+	grid-gap: 30px;
+
+
+.tarjetaoli{
+	border-radius: 30px;
+	overflow: hidden;
+	gap: 40px;
+	grid-gap: 40px;
+}
+
+.tarjetitasoli {
+	transition: all .3s;
+}
+
+.tarjetitasoli:hover {
+	transform: scale(1.1) translateY(-40px);
+	box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+}
+.cartelera3 {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 20px;
+
+
+.anibombone17 {
+	text-align: center;
+    animation-name: cajita17Movimiento;
+    animation-duration: 2s;
+    animation-delay: 0.5s;
+}
+
+.anibombone17 img {
+	width: 400px;
+	height: auto;
+	object-fit: cover;
+
+}
+
+.anibombone17 h3 {
+	margin-top: 10px;
+}
+
+@keyframes anibombone17 {
+    from {
+        width: 300px;
+        background-color: #F74BE1 ;
+    }
+    to {
+        width: 100%;
+        background-color: #FEA0F2;
+    }
+}
+.anibombone17:hover{
+	transform: scale(1.1)
+}}
+.cartelera2 {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 20px;
+
+.cajita17 {
+	text-align: center;
+    animation-name: cajita17Movimiento;
+    animation-duration: 2s;
+    animation-delay: 0.5s;
+}
+
+.cajita17 img {
+	width: 100%;
+	height: auto;
+	object-fit: cover;
+
+}
+
+.cajita17 h3 {
+	margin-top: 10px;
+}
+@keyframes cajita17Movimiento {
+    from {
+        width: 300px;
+        background-color: #F74BE1 ;
+    }
+    to {
+        width: 100%;
+        background-color: #FEA0F2;
+    }
+}
+.cajita17:hover{
+	transform: scale(1.1)
+}
+}
+.boxp171{
+	animation-name: oferta17;
+	animation-duration: 2.0s;
+	animation-delay: 0.5s;
+animation-timing-function: step-start;
+
+}
+@keyframes boxp171 {
+	from {
+		width: 300px;
+		background-color: #FEA0F2;
+	}
+	to {
+		width: 100%;
+		background-color: #F74BE1;
+	}
+}
+
+.box171:hover{
+	transform: scale(1.1) translateY(-40px) 
+}
+.box172:hover{
+	transform: scale(1.1) translateY(+40px) 
+}
+.box173:hover{
+	transform: scale(1.1) translateY(-40px) 
+}
+.cartelera {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 20px;
+}
+
+.bomboncito {
+	text-align: center;
+}
+
+.bomboncito img {
+	width: 100%;
+	height: auto;
+	object-fit: cover;
+}
+
+.bomboncito h3 {
+	margin-top: 10px;
+}
+
+@media (max-width: 768px) { 
+	body {
+	background-color: lightblue;
+	} }
+
+
+	.cajita3 {
+		transition: transform 1s;
+	}
+	
+	.cajita:hover {
+		transform: rotate(140deg) scale(2) skew(30deg);
+	}
+
+.oferta17{
+	animation-name: oferta17;
+	animation-duration: 3.5s;
+	animation-delay: 0.5s;
+	animation-timing-function: ease-in-out;
+}
+@keyframes oferta17 {
+	from {
+		width: 300px;
+		background-color: #FEA0F2;
+	}
+	to {
+		width: 100%;
+		background-color: #F74BE1;
+	}
+}
+}

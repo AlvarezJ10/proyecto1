@@ -1,0 +1,19 @@
+header{
+	background-color: #FEBFF6;
+	display: flex;
+	gap: 20px;
+	grid-gap: 20px;
+
+    .logo{
+	width: 150px;
+    display:block;
+	margin: 0 auto;
+	}
+}
+
+    .menu{
+	display: flex;
+	gap: 20px;
+	grid-gap: 20px;
+	align-items: center;}
+

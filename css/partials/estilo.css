@@ -1,0 +1,329 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Teko&display=swap");
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+*::-moz-selection {
+  background-color: black;
+  color: #F74BE1;
+}
+
+*::selection {
+  background-color: black;
+  color: #F74BE1;
+}
+
+body {
+  background-color: #FEDFFA;
+  text-align: center;
+}
+body .logos {
+  grid-column: 1/3;
+  grid-row: 1/3;
+  background-color: aqua;
+}
+body .bombones2 {
+  background-color: blueviolet;
+}
+body .tabletas2 {
+  background-color: beige;
+}
+body .chocobombas2 {
+  background-color: brown;
+}
+body .barra2 {
+  background-color: chartreuse;
+}
+body .conta > div {
+  display: grid;
+  place-items: center;
+}
+body .galery.img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+body .grid-item:hover {
+  filter: opacity(0.9);
+  transform: scale(1.04);
+}
+body .contenedor4 {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+body .contenedor4 a {
+  font-size: 30px;
+}
+body .inicio {
+  color: #a8edea;
+}
+body .menu li {
+  margin-bottom: 10px;
+}
+body h1 {
+  color: black;
+  padding: 10;
+  margin: 50;
+  text-align: center;
+  text-decoration: underline;
+}
+body h1 img {
+  border: solid;
+  padding: 300;
+}
+body h1 li a {
+  text-decoration: none;
+  color: black;
+}
+body h1 p {
+  font-style: italic;
+  font-weight: bold;
+}
+body h1 iframe {
+  border: solid;
+  align-items: center width 100%;
+}
+body h1 .grid-layout {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 10px;
+}
+body h1 .grid-layout .gap-1 {
+  justify-content: space-between;
+  margin-right: 100px;
+  gap: 50px;
+}
+body h1 .grid-layout .fenix {
+  width: 450px;
+}
+body h1 .grid-layout h2 {
+  color: black;
+  padding: 10;
+  margin: 50;
+  text-align: center;
+  text-decoration: underline;
+}
+body h1 .cajita2 {
+  animation-name: cajita2Movimiento;
+  animation-duration: 2s;
+  animation-delay: 0s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes cajita2Movimiento {
+  from {
+    width: 300px;
+    background-color: #FEA0F2;
+  }
+  to {
+    width: 100%;
+    background-color: #F74BE1;
+  }
+}
+body .section .tarjetaimg {
+  width: 400px;
+}
+body .tarjetitas {
+  display: flex;
+  padding: 60px;
+  gap: 30px;
+  grid-gap: 30px;
+  transition: all 0.3s;
+  flex-direction: column;
+  align-items: center;
+}
+body .tarjetitas .tarjeta {
+  border-radius: 30px;
+  overflow: hidden;
+  gap: 40px;
+  grid-gap: 40px;
+  margin-bottom: 20px;
+}
+body .tarjetitas .tarjeta .letratar {
+  background-color: white;
+}
+body .tarjetitas .tarjetitas:hover {
+  transform: scale(1.1) translateY(-40px);
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+body .tarjetaimgoli {
+  width: 400px;
+}
+body .tarjetitasoli {
+  display: flex;
+  padding: 60px;
+  gap: 30px;
+  grid-gap: 30px;
+}
+body .tarjetitasoli .tarjetaoli {
+  border-radius: 30px;
+  overflow: hidden;
+  gap: 40px;
+  grid-gap: 40px;
+}
+body .tarjetitasoli .tarjetitasoli {
+  transition: all 0.3s;
+}
+body .tarjetitasoli .tarjetitasoli:hover {
+  transform: scale(1.1) translateY(-40px);
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+body .cartelera3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+body .cartelera3 .anibombone17 {
+  text-align: center;
+  animation-name: cajita17Movimiento;
+  animation-duration: 2s;
+  animation-delay: 0.5s;
+}
+body .cartelera3 .anibombone17 img {
+  width: 400px;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+body .cartelera3 .anibombone17 h3 {
+  margin-top: 10px;
+}
+@keyframes anibombone17 {
+  from {
+    width: 300px;
+    background-color: #F74BE1;
+  }
+  to {
+    width: 100%;
+    background-color: #FEA0F2;
+  }
+}
+body .cartelera3 .anibombone17:hover {
+  transform: scale(1.1);
+}
+body .cartelera2 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+body .cartelera2 .cajita17 {
+  text-align: center;
+  animation-name: cajita17Movimiento;
+  animation-duration: 2s;
+  animation-delay: 0.5s;
+}
+body .cartelera2 .cajita17 img {
+  width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+body .cartelera2 .cajita17 h3 {
+  margin-top: 10px;
+}
+@keyframes cajita17Movimiento {
+  from {
+    width: 300px;
+    background-color: #F74BE1;
+  }
+  to {
+    width: 100%;
+    background-color: #FEA0F2;
+  }
+}
+body .cartelera2 .cajita17:hover {
+  transform: scale(1.1);
+}
+body .boxp171 {
+  animation-name: oferta17;
+  animation-duration: 2s;
+  animation-delay: 0.5s;
+  animation-timing-function: step-start;
+}
+@keyframes boxp171 {
+  from {
+    width: 300px;
+    background-color: #FEA0F2;
+  }
+  to {
+    width: 100%;
+    background-color: #F74BE1;
+  }
+}
+body .box171:hover {
+  transform: scale(1.1) translateY(-40px);
+}
+body .box172:hover {
+  transform: scale(1.1) translateY(40px);
+}
+body .box173:hover {
+  transform: scale(1.1) translateY(-40px);
+}
+body .cartelera {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+body .bomboncito {
+  text-align: center;
+}
+body .bomboncito img {
+  width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+body .bomboncito h3 {
+  margin-top: 10px;
+}
+@media (max-width: 768px) {
+  body body {
+    background-color: lightblue;
+  }
+}
+body .cajita3 {
+  transition: transform 1s;
+}
+body .cajita:hover {
+  transform: rotate(140deg) scale(2) skew(30deg);
+}
+body .oferta17 {
+  animation-name: oferta17;
+  animation-duration: 3.5s;
+  animation-delay: 0.5s;
+  animation-timing-function: ease-in-out;
+}
+@keyframes oferta17 {
+  from {
+    width: 300px;
+    background-color: #FEA0F2;
+  }
+  to {
+    width: 100%;
+    background-color: #F74BE1;
+  }
+}
+
+header {
+  background-color: #FEBFF6;
+  display: flex;
+  gap: 20px;
+  grid-gap: 20px;
+}
+header .logo {
+  width: 150px;
+  display: block;
+  margin: 0 auto;
+}
+
+.menu {
+  display: flex;
+  gap: 20px;
+  grid-gap: 20px;
+  align-items: center;
+}/*# sourceMappingURL=estilo.css.map */
