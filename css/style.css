@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Teko&display=swap'); 
 
-<style>
- @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Teko&display=swap');
-</style> 
-
 
 *{
 	margin: 0%;
@@ -433,3 +429,8 @@ animation-timing-function: step-start;
 		margin-bottom: 20px;
 	}
 }
+
+@media screen and (max-width: 767px) {
+	body{
+	  font-size: 16px;}
+	}
